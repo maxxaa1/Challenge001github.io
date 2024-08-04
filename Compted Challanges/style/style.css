@@ -1,0 +1,96 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: #4f4f4f;
+}
+
+.container{
+	width: 340px;
+	height: 567px;
+	background: black; 
+	position: fixed;
+	margin: auto;
+	inset: 0;
+	border-radius: 20px;
+
+}
+
+img{
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 30px ;
+	margin-left: 120px ;
+
+}
+
+h1{
+	color: white;
+	font-family: inter;
+	font-weight: 200;
+	font-size: 25px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.location{
+	color: #b5ea44;
+	font-size: 16px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+}
+.about{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 200;
+	margin-top: 20px;
+}
+
+.boxs{
+	width:280px;
+	height: 40px;
+	float: left;
+	background:#4f4f4f ;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	
+
+
+}
+
+.boxs h3{
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+}
+
+
+.boxs:hover {
+	background: #b5ea44;
+	cursor: pointer;
+	color: black;
+	transition: .7s;
+}
+
+.boxs:hover h3{
+	color: black;
+}
+/*
+h3:hover{
+	color: black;
+}*/
